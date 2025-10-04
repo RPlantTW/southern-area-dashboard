@@ -2,21 +2,20 @@
   "name": "southern-area-dashboard",
   "private": true,
   "version": "0.0.0",
-"homepage": "https://RPlantTW.github.io/southern-area-dashboard", 
+  "homepage": "https://RPlantTW.github.io/southern-area-dashboard",
   "type": "module",
-  
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build", 
-  "deploy": "gh-pages -d dist", 
-  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-  "preview": "vite preview"
-},
-
+  "scripts": {
+    "dev": "vite",
+    "build": "npx vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "recharts": "^3.2.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
